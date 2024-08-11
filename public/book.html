@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fullCalendar/main.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+              <li><a href="#">BOOK A SLOT</a></li>
+            </ul>
+        </nav>
+        <div class="card">
+            <form id="bookSlotForm">
+                <label for="facultyName">FACULTY NAME:</label>
+                <input type="text" id="facultyName" placeholder="Enter faculty name" name="facultyName" required>
+
+                <label for="course">COURSE:</label>
+                <input type="text" id="course" placeholder="Enter course" name="course" required>
+
+                <label for="year">YEAR:</label>
+                <select id="year" name="year" required>
+                    <option value="first">First year</option>
+                    <option value="second">Second year</option>
+                    <option value="third">Third year</option>
+                    <option value="fourth">Fourth year</option>
+                </select>
+
+                <label for="type">TYPE:</label>
+                <select id="type" name="type" required>
+                    <option value="IA">IA</option>
+                    <option value="Lab CA">Lab CA</option>
+                </select>
+
+                <label for="date">DATE:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="startTime">FROM:</label>
+                <input type="time" id="startTime" name="startTime" required>
+
+                <label for="endTime">TO:</label>
+                <input type="time" id="endTime" name="endTime" required>
+
+                <button class="btn" type="submit">Book Slot</button>
+            </form>
+            <button class="btn" id="backToHome" ><a href="index.html">Back to Home</a></button>
+        </div>
+    </div>
+
+    <div>
+        <div id="bookSlotLink"></div>
+        <div id="viewCalendarLink"></div>
+        <div id="viewTableLink"></div>
+    </div>
+    <script src="fullCalendar/main.min.js" defer></script>
+    <script src="app.js" defer></script>
+</body>
+</html>

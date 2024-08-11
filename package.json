@@ -1,0 +1,20 @@
+{
+  "name": "slotbooking",
+  "version": "1.0.0",
+  "description": "Slot booking for IA and LAB CA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullcalendar/common": "^5.11.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fullcalendar": "^6.1.15",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}

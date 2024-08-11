@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table View</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fullCalendar/main.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+              <li><a href="#">SCHEDULE LIST</a></li>
+            </ul>
+        </nav>
+        <div class="card">
+            <table id="slotTable">
+                <thead>
+                    <tr>
+                        <th>FACULTY NAME</th>
+                        <th>COURSE</th>
+                        <th>YEAR</th>
+                        <th>TYPE</th>
+                        <th>DATE</th>
+                        <th>FROM</th>
+                        <th>TO</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Booking rows will be inserted here -->
+                </tbody>
+            </table>
+            <button class="btn" id="backToHome">Back to Home</button>
+        </div>
+    </div>
+    <script src="fullCalendar/main.min.js" defer></script>
+    <script src="table.js" defer></script>
+    
+</body>
+</html>
