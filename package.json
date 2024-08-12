@@ -1,4 +1,9 @@
 {
+  
+  "engines":{
+    "node": "20.14.0"
+  },
+  
   "name": "slotbooking",
   "version": "1.0.0",
   "description": "Slot booking for IA and LAB CA",
